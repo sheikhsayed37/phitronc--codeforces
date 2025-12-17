@@ -15,7 +15,8 @@ int main()
     int flag = 1;
     for(int i = 0; i < N; i++)
     {
-        if(A[i] != A[N-i-1])
+        if(A[i] != A[N-i-1])// sohoj bai 0 no digit er sathe 4 no digit er comapre korse
+                             // 1!=1 sathe compre kore 
         {
             flag = 0;
             break;
