@@ -10,7 +10,7 @@ int main()
         cin>>a[i];
     }
     int x[n];
-    for(int i=n-1;i>=0;i--)  // doitai array nia lagbeaktate arekta bosai then kaj
+    for(int i=n-1;i>=0;i--)    // doitai array nia lagbeaktate arekta bosai then kaj
     {
         x[i]=a[i];
    
