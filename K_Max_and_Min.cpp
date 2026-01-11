@@ -9,7 +9,7 @@ int main()
     }
 
     int mx=INT_MIN;   // ata direct akta coto man ace ja nijer modde rakke pore loop e doke count kore
-                       // ak ak kore
+                      // ak ak kore
     for(int i=0;i<3;i++)
     {
         mx=max(a[i],mx);

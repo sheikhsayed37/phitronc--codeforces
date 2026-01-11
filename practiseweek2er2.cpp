@@ -7,6 +7,8 @@ using namespace std;
 	string country;
 
 };
+
+
 int main()
 {
 
