@@ -5,7 +5,6 @@ using namespace std;
     public:
 	int jersey_no;
 	string country;
-
 };
 
 
@@ -20,7 +19,6 @@ int main()
      kohli->jersey_no=9;
      kohli->country="faidia";
 
- 
        kohli->jersey_no=dhoni->jersey_no;
      kohli->country=dhoni->country;   
                                      // kohli =dhoni;it doesnt work .and not showing the output
