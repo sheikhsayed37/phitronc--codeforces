@@ -30,11 +30,15 @@ int main()
   {
    s[i] = toupper(s[i]);
   }
-   while(s.find("EGYPT")!=string:: npos)
-   
+
+   while(s.find("EGYPT")!=string:: npos)    //  string::npos = “খুঁজে পাওয়া যায়নি”
+
    {
+
       s.replace(s.find("EGYPT"),5," ");
+      
    } 
-cout<< s;
+
+   cout<< s;
 
 }

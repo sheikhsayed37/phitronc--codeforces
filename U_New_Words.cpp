@@ -27,7 +27,7 @@ int main()
             P++;
           }
           else if(c=='T')
-          {
+          { 
             T++;
           }   
     }
