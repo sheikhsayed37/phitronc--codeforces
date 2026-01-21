@@ -16,7 +16,7 @@ int main()
        }
       for(int i=3;i<6;i++)
        {
-         sum2= sum2+test[i]-'0';
+         sum2= sum2+test[i]-'0';  
        }
 
 
@@ -28,8 +28,14 @@ int main()
        {
          cout << "NO"<<endl;
        }
-       
-        
+          
     }
-   
-}
+}//akane   -'0' kno disi karon test[i] akane soinka tkleo agola character hisebe kaj kore  
+                                                    //Computer character রাখে ASCII value দিয়ে।
+                                                    // Character	ASCII value
+                                                                // '0'=	48
+                                                                // '1'=	49        like 3 er ketre 51 hole 51-48=3 pawa jai 
+                                                                // '2'=	50 
+                                                                // '3'=	51
+
+                                                             
