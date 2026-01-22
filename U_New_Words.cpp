@@ -5,6 +5,8 @@ int main()
     string s;
     cin>> s;
     int G=0,E=0,Y=0,P=0,T=0;
+
+    
     for(int i=0;i<s.size();i++)
     {
         char c=towupper(s[i]);  // o jeta korse s string er sob word k upper hisebe count korse
