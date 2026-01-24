@@ -5,7 +5,7 @@ int main() {
     string s = "HELLO";
 
     string part = s.substr(1, 3); // koiteke soro hbe koita nibe 
-    // ouput hbe    ELL 
+                                 // ouput hbe    ELL 
 
     cout << part;
 }
