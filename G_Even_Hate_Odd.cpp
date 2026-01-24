@@ -37,11 +37,15 @@ int main()
         }
 
         // answer
-        if(n % 2 == 1)
+        if(n % 2 !=0)
+        {
             cout << -1 << endl;
+        }
         else
+        {
             cout << abs(even - odd) / 2 << endl;
-    }
+        }
+        }
 
     return 0;
 }
