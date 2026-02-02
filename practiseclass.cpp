@@ -10,13 +10,12 @@ class student
 
 bool cmp(student a, student b)
 {
-    if(a.marks != b.marks)
-        return a.marks > b.marks;   // descending marks
+    if(a.marks != b.marks)   // akto airkm kora lagse jeno marks same hole roll er 
+           return a.marks > b.marks;              //upor condition dite pari
+                                           // descending marks
     else
         return a.roll < b.roll;     // ascending roll
 }
-
-
 int main()
 {
    int n;
@@ -28,7 +27,7 @@ int main()
 
    }
   sort(a,a+n,cmp);
-for(int i=0;i<n;i++)
+  for(int i=0;i<n;i++)
    {
     cout<< a[i].name<<" "<<a[i].roll<<" "<<a[i].marks<<endl;
    } 
