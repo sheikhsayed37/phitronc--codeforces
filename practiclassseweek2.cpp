@@ -10,14 +10,18 @@ int main()
     int  count=0;
 
     stringstream ss(s);
-    
+
     string word;
+
     while(ss>>word)
     {
         if(word==s1)
         { 
-        count++;
+           count++;
         }
     }
+     
     cout<<count;
-}
+
+} 
+// john likhata doiber ase seta count koro
