@@ -38,7 +38,6 @@ int main()
       s.replace(s.find("EGYPT"),5," ");
       
    } 
-
    cout<< s;
 
 }
