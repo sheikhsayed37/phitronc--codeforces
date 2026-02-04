@@ -2,6 +2,7 @@
 using namespace std;
 int main()
 {
+
     int t;
     cin>>t;
     for(int i=0;i<t;i++)
@@ -15,9 +16,12 @@ int main()
 
         }
         cout<<endl;
+        
     
     }
 }
+
+
 // question e first test case e 1 space n mane output e na akta print koro
 // second test case e 5 space 0 mane output e 5 ta zero print koro
 
