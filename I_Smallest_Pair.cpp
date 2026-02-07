@@ -4,6 +4,7 @@ int main()
 {
     int t;
     cin>>t;
+    
 for(int i=0;i<t;i++)
 {
     int n;
@@ -15,6 +16,7 @@ for(int i=0;i<t;i++)
     }
     int minimum=INT_MAX;
     int value;
+
      for(int i=0;i<n;i++)
      {
      for(int j=i+1;j<n;j++)
