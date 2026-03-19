@@ -4,8 +4,10 @@ int main()
 {
     int t;
     cin>> t;
+
     for(int i=0;i<t;i++)
     {
+
         int x;
         cin>> x;
         int a[x];
@@ -25,6 +27,7 @@ int main()
             odd++;
           } 
         }
+        
         if(x%2==1)    // 4 soinka hole 
         {
            cout<<-1<<endl;
